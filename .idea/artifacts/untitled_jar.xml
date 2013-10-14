@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="untitled:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/untitled.jar</output-path>
+    <properties id="ant-postprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="untitled_jar.jar">
+      <element id="module-output" name="untitled" />
+      <element id="file-copy" path="$PROJECT_DIR$/../LJGL/jar/lwjgl.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../LJGL/jar/lwjgl_util.jar" />
+      <element id="library" level="project" name="jave-1.0.1" />
+    </root>
+  </artifact>
+</component>
